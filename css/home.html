@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<head>
+    <title>illy Kahve</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="kahve,kahve ekipmanları,illy kahve" />
+    <meta name="description" content="illy kahve markası" />
+    <meta name="author" content="Aylinnur Güldür" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<script>
+    var i = 0;
+    var images = [];
+    var links = [];
+    var time = 3000;
+    images[0] = 'src/img1.jpg';
+    images[1] = 'src/img3.jpg';
+    images[2] = 'src/imgDuyuru_3.jpg';
+    function imageShow() {
+
+        document.slide.src = images[i];
+        if (i < images.length - 1) {
+            i++;
+        } else {
+            i = 0;
+        }
+        setTimeout("imageShow()", time);
+    }
+    window.onload = imageShow;
+</script>
+<html dir="ltr" lang="tr">
+
+<body>
+    <script src="header.js"></script>
+    <div class="form">
+        <a name="mylink">
+            <img name="slide" class="slaytImg">
+        </a>
+        <div style="display: flex;padding-top: 15px;">
+            <div style="padding-top: 15px;padding-bottom: 15px;">
+                <div class="pano">
+                    <div class="duyuru">
+                        <a href="kahveCesitleri.html" target="_blank" style="color: white;">
+                            <div style="padding: 15px;">İNDİRİM! Tüm kahve çeşitlerinde sepette %20 indirim.</div>
+                        </a>
+                    </div>
+
+                    <div class="duyuru">
+                        <a href="egitim.html" target="_blank" style="color: white;">
+                            <div style="padding: 15px;">Kahve Eğitimlerimiz Başlıyor!!</div>
+                        </a>
+                    </div>
+                    <div class="duyuru">
+                        <a href="tanismaSeti.html" target="_blank" style="color: white;">
+                            <div style="padding: 15px;">Haydi Tanışalım!! illy Tanışma Seti Sadece 299.90 TL</div>
+                        </a>
+                    </div>
+                    <div class="duyuru">
+                        <a href="yeniSube.html" target="_blank" style="color: white;">
+                            <div style="padding: 15px;">Yeni Şubemiz Açıldı!!</div>
+                        </a>
+                    </div>
+                    <div class="duyuru">
+                        <a href="ilan.html" target="_blank" style="color: white;">
+                            <div style="padding: 15px;">Bizimle Çalışmak İster misiniz?</div>
+                        </a>
+                    </div>
+                    <div style="float: right;padding: 10px;">
+                        <a href="duyurular.html" style="color: brown;font-weight: 900;font-size: large;">
+                            Daha fazla duyuru göster
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pano_2">
+                <div style="font-size: xx-large;text-align: center;font-weight: 800;">Bunu Biliyor Muydunuz?</div>
+                <br>
+                <div style="text-align: center;font-size: 25px;padding: 5px;">
+                    Su, filtre kahvede çok önemlidir. Çünkü neredeyse kahvenizin tamamı sudan oluşuyor. Suyunuz
+                    kalitesiz
+                    veya sertse, bu aynen kahvenize de yansıyacaktır.
+                    <div style="float: right;padding: 5px;margin-top:15px ;">
+                        <a href="kahveTeknikleri.html" style="color: brown;font-weight: 900;font-size: large;">
+                            Daha fazla püf nokta için >>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form" style="margin-top:0px">
+        <div style="    margin-left: 10px;
+        font-size: 40px;
+        background-color: brown;
+        color: white;
+        width: auto;
+        margin-right: 55px;
+        padding: 5px;
+        text-align: center;">
+            ŞUBELERİMİZ
+        </div>
+
+        <div class="row">
+            <div class="column" style="width: 15%;">
+                <div class="storeName">
+                    MİLANO
+                </div>
+                <img src="src/illy_caffe_milano.jpg" class="storeImage">
+            </div>
+            <div class="column" style="width: 15%;">
+                <div class="storeName">
+                    ROMA</div>
+                <img src="src/illy_caffe_roma.jpg" class="storeImage">
+            </div>
+            <div class="column" style="width: 15%;">
+                <div class="storeName">
+                    VİENNA</div>
+                <img src="src/illy_caffe_vienna.jpg" class="storeImage">
+            </div>
+            <div class="column" style="width: 15%;">
+                <div class="storeName">
+                    İSPANYA
+                </div>
+                <img src="src/illy_caffe_sanfrancisco.jpg" class="storeImage">
+            </div>
+            <div class="column" style="width: 15%;">
+                <div class="storeName">
+                    DUBAİ
+                </div>
+                <img src="src/illy_caffe_dubai.jpg" class="storeImage">
+            </div>
+            <div class="column" style="width: 15%;">
+                <div class="lastStoreName">
+                    SAN FRANCİSCO
+                </div>
+                <img src="src/illlycaffe-sf.jpg" class="storeImage">
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <script src="footer.js"></script>
+    </div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,281 @@
+.header{
+    color:whitesmoke;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:brown;
+    height: 70px;
+    font-size:55px;
+    margin: 2px;
+    
+}
+.amblem{
+  margin-left: 55px;
+  height: 70px;
+  width: auto;
+  float: left;
+  clear:left;
+}
+.amblemFooter{
+  margin-left: 25px;
+  margin-top:20px;
+  height: 80px;
+  width: auto;
+  float: center;
+}
+body{
+    background-color:white;
+    height: 100%;
+    width: 100%;
+}
+
+html{
+  margin-left: 25px;
+  margin-right: 25px;
+  height:  -webkit-fill-available;
+}
+
+.footer{
+  bottom: 10px;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  height: 150px;
+  content:"";
+	display:table;
+	clear:both;
+}
+.column{
+    float:left;
+    width:32%;
+    padding:10px;
+}
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.slaytImg{
+  height: 590px;
+  width: 90%;
+  float: center;
+  object-fit: cover;
+  margin-left:75px;
+}
+.duyuru{
+    background-color:rgb(160, 57, 57);
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-size: larger ;
+}
+.duyuruSayfa{
+  background-color:#91909091;
+  height:100%;
+  border-radius: 10px;
+  text-align: center;
+  color:brown;
+  margin-top: 5px;
+}
+.pano{
+  background-color: white;
+  border-radius: 15px;
+  overflow: auto;
+  border: #888;
+  object-fit: contain;
+  margin-left: 180px;
+  width: 650px;
+}
+.pano_2{
+  background: rgb(223, 198, 160);
+  border-radius: 15px;
+  border: #888;
+  padding: 45px;
+  margin-left: 80px;
+  width: 400px;
+  height: 200px;
+  margin-top: 5px;
+}
+.primary-navigation {
+      display: block;
+      padding: 5px 0 0 0;  
+      text-align: center;
+      font-size: 16px;
+    }
+      ul li {
+        list-style: none;
+        margin: 0 auto;
+        border-left: 2px solid brown;
+        display: inline-block;
+        padding: 0 30px;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        font-family: arvo;
+      }
+  
+      li a {
+        color: black;
+      }
+  
+      li a:hover {
+        color: #3ca0e7;
+      }
+  
+      li:hover {
+        cursor: pointer;
+      }
+  
+      ul li ul {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        padding-left: 0;
+        left: 0;
+        display: none;
+        background: white;
+      }
+  
+      ul li:hover > ul,
+      ul li ul:hover {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        min-width: 250px;
+        text-align: left;
+        padding-top: 20px;
+        box-shadow: 0px 3px 5px -1px #ccc;
+      }
+  
+      ul li ul li {
+        clear: both;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+        border-style: none;
+      }
+  
+      ul li ul li a:hover {
+        padding-left: 10px;
+        border-left: 2px solid brown;
+        
+    }
+a {
+  text-decoration: none;
+
+}
+
+input[type=text],input[type=password],input[type=file],textarea{
+    width: 55%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+input[type=submit]{
+    width: 55%;
+    padding: 15px;
+    margin: 15px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+  input[type=submit]:hover {
+    background-color:rgb(185, 52, 52);
+}
+textarea{
+    height:75px;
+    resize: none;
+}
+.form_element {
+    text-align:left;
+    background-color:white;
+    width: 900px;
+    height: 100%;
+    margin-left: 100px;
+}  
+.form{
+  background-color:white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+  
+.productCard{
+    height: 430px;
+    width: 300px;
+    background-color:white;
+    border:3px solid brown;
+    border-radius: 7px;
+    margin-left: 25px;
+  }
+
+.productImage{
+    width: 220px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+.productInfo{
+    color: brown;
+    font-size:larger;
+    text-align:center;
+    margin-top: 25px;
+    font-size: larger;
+    font-weight: 600;
+  }
+
+.duyuruEkle{
+    background-color:rgb(160, 57, 57);
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    float: right;
+    margin-right: 195px;
+    margin-bottom: 25px;
+  }
+  .satınAlButon{
+    background-color:brown;
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 41%;
+  }
+  .satınAlButon:hover {
+    background-color:rgb(221, 103, 103);
+  }
+
+.storeImage{
+  width: 250px;
+  height: 350px;
+
+}
+.storeName{
+  padding-top: 35px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  height: 70px;
+}
+
+.lastStoreName{
+  padding: 15px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  height: 75px;
+}
